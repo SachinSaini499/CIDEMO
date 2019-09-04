@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CIDemo"
+             x:Class="CIDemo.MainPage">
+
+    <FlexLayout>
+        <Frame BackgroundColor="DarkGray" VerticalOptions="Center">
+            <StackLayout>
+            <Entry Placeholder="Enter Username"></Entry>
+            <Entry Placeholder="Enter Password"></Entry>
+                <Button Text="Submit" Clicked="Button_Clicked"></Button>
+                       
+            </StackLayout>
+        </Frame>
+        
+    </FlexLayout>
+
+</ContentPage>

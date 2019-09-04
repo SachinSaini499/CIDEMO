@@ -1,11 +1,4 @@
-# Xamarin.Android
-- task: AndroidSigning@3
-  inputs:
-    apkFiles: '**/*.apk'
-    apksignerKeystoreFile: 'C:\Users\sachin.saini\AppData\Local\Xamarin\Mono for Android\Keystore\Tagnos'
-    apksignerKeystorePassword: '12345678'
-    apksignerKeystoreAlias: 'Tagnos'
-    apksignerKeyPassword: '12345678'
+
 # Build a Xamarin.Android project.
 # Add steps that test, sign, and distribute an app, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin

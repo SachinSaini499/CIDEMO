@@ -25,3 +25,11 @@ steps:
     projectFile: '**/*droid*.csproj'
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
+
+- task: AndroidSigning@3
+  inputs:
+    apkFiles: '**/*.apk'
+    apksignerKeystoreFile: 'C:\Users\sachin.saini\AppData\Local\Xamarin\Mono for Android\Keystore\Tagnos\Tagnos.Keystore'
+    apksignerKeystorePassword: '12345678'
+    apksignerKeystoreAlias: 'Tagnos'
+    apksignerKeyPassword: '12345678'
